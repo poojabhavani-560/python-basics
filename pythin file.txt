@@ -1,0 +1,78 @@
+1. What is Python?
+
+Python is a high-level, easy-to-learn programming language used for web development, AI, data science, etc.
+
+2. Variables
+
+Used to store data.
+
+x = 10
+name = "Pooja"
+price = 99.5
+3. Data Types
+Type	Example
+int	10
+float	3.5
+str	"hello"
+bool	True
+4. Input and Output
+name = input("Enter your name: ")
+print("Hello", name)
+5. Operators
+a = 10
+b = 5
+
+print(a + b)  # addition
+print(a - b)  # subtraction
+print(a * b)  # multiplication
+print(a / b)  # division
+6. Conditional Statements (if-else)
+num = int(input("Enter number: "))
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+7. Loops
+For loop
+for i in range(1, 6):
+    print(i)
+While loop
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+8. Functions
+def add(a, b):
+    return a + b
+
+print(add(2, 3))
+9. Lists
+numbers = [1, 2, 3, 4]
+print(numbers[0])
+10. Simple Programs
+Factorial
+n = 5
+fact = 1
+
+for i in range(1, n+1):
+    fact *= i
+
+print(fact)
+Palindrome
+num = input("Enter number: ")
+if num == num[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+Quick Revision Diagram
+Python Basics
+│
+├── Variables
+├── Data Types
+├── Input/Output
+├── Operators
+├── If-Else
+├── Loops
+├── Functions
+└── Lists
